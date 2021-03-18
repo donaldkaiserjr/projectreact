@@ -2,6 +2,10 @@ import React, {useState} from 'react';
 import Tweet from './Tweet';
 
 
+//Terminal:  create-react-app projectreact  to create folder for project
+// Terminal:  npm start    THIS OPENS THE LIVE DEVELOPMENT SERVER
+
+
 function App() {
 
   const [users, setUsers] = useState([
