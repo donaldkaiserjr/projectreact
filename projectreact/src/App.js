@@ -8,19 +8,21 @@ import Tweet from './Tweet';
 
 function App() {
 
-  const [users, setUsers] = useState([
+  const [users] = useState([
     {name: 'Ed', message: 'Hello There'}, 
-    {name: 'John', message: 'I am John Snow'}, 
-    {name: 'Traversy', message: 'Goulash'},
-    {name: 'Bobo TheClown', message: 'What in the hamhock is going on. I cant believe this'},  
+    {name: 'Foodie 800', message: "Today we're making lobster"}, 
+    {name: 'TimTheDriver', message: 'Why drivers dislike Uber'},
+    {name: 'RealBruno', message: 'Bruno Mars Tickets on sale tomorrow!'},  
   ]);
 
 
   return (
     <div className='app'>
-      {users.map(user => (
-        <Tweet name={user.name} message={user.message}/>
-      ))}
+      <div className="container-1">
+        {users.map(user => (
+          <Tweet name={user.name} message={user.message}/>
+        ))}
+      </div>
     </div>
   );
   }
