@@ -20,15 +20,5 @@ function App() {
     </div>
   );
   }
-  
-//   return(
-//     <div className='app'>
-//       <Tweet name="Deve Ed" message="This is a random tweet" />
-//       <Tweet name="John Snow" message="I am the true King of EVERYTHING!"/>
-//       <Tweet name="Traversy Media" message="Whew daddy!"/>
-//       <Tweet name="Mosh" message="What the fuck is Amazon up to now!"/>
-//     </div>
-//   )
-// }
-
+ 
 export default App;
